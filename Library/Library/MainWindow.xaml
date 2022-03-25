@@ -1,0 +1,24 @@
+﻿<Window x:Class="Library.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="384">
+    <Grid HorizontalAlignment="Center" Width="384">
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,74,0,0" VerticalAlignment="Top" Width="184" Source="/logo_vis222.png"/>
+        <TextBox x:Name="tbLog" HorizontalAlignment="Center" Margin="0,207,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="tbPass" HorizontalAlignment="Center" Margin="0,256,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="184"/>
+        <Label Content="LOGIN" HorizontalAlignment="Left" Margin="95,185,0,0" VerticalAlignment="Top"/>
+        <Label Content="PASSWORD" HorizontalAlignment="Left" Margin="95,235,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEnter" Content="Войти" HorizontalAlignment="Center" Margin="0,312,0,0" VerticalAlignment="Top" Width="110" Background="#FF97FFFF" Foreground="Black" Click="btnEnter_Click"/>
+        <PasswordBox x:Name="bPass" HorizontalAlignment="Left" Margin="100,256,0,0" VerticalAlignment="Top" Width="168"  />
+        <Button  HorizontalAlignment="Left" Margin="268,256,0,0" VerticalAlignment="Top" Height="18" Width="16" Visibility="Visible" Background="White" Click="Button_Click">
+            <Image Source="/207-2073226_show-icon-png-white-password-view-icon.png" />
+        </Button>
+
+
+
+    </Grid>
+</Window>
